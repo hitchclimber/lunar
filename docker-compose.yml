@@ -1,0 +1,16 @@
+services:
+  mongo-db:
+    image: mongo:latest
+    ports:
+      - '27017:27017'
+    container_name: mongo-dev
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=sunny
+      - MONGO_INITDB_ROOT_PASSWORD=looney
+      - MONGO_INITDB_DATABASE=moonbatteries
+    volumes:
+      - ./mongodb/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+      - ./mongodb:/data/db
+volumes:
+  mongo_store:
+
