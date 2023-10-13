@@ -1,6 +1,6 @@
 # Lunar
 
-I opted for a NoSQL approach, since I interpreted the constraints on the `/configuration` endpoint as a requirement for a dynamic schema. I've never worked with unstructured data before (except for my desk, flat etc), so this was all new territory. But I relish learning new stuff, so it was very enjoyable, although the majority of debugging consisted of hacking awat at my code for ages only to find out that my curl requests used the wrong port and similar witch hunts. On an even more positive note, this means I understood the concepts reasonably well and the code actually worked pretty much from the start.
+I opted for a NoSQL approach, since I interpreted the constraints on the `/configuration` endpoint as a requirement for a dynamic schema. I've never worked with unstructured data before (except for my desk, flat etc), so this was all new territory. But I relish learning new stuff, so it was very enjoyable, although the majority of debugging consisted of hacking away at my code for ages only to find out that my curl requests used the wrong port and similar witch hunts. On an even more positive note, this means I understood the concepts reasonably well and the code actually worked pretty much from the start.
 
 ## Actual implementation
 
