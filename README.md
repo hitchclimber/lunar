@@ -17,8 +17,7 @@ I opted for a NoSQL approach, since I interpreted the constraints on the `/confi
     - `/register`: No validation, you could provide any limerick as a MAC address
     - `/ping`: I didn't overthink edge cases, so there might be room for error, apart from that, it works
     - `/configuration`: same as the others, in addition, I used a very primitive setup DB-wise, so there's no elegant way to update configuration KV pairs. Right now, you can push new KV pairs alright, but duplicates are possible. There are various remedies, I thought about using a seperate `configData` collection and associate each KV with a `moon` object
-- proper authentication: I'd use probably use JWT
-
+- proper authentication: I'd probably use JWT.
 
 
 
