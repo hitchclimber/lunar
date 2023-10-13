@@ -6,7 +6,7 @@ I opted for a NoSQL approach, since I interpreted the constraints on the `/confi
 
 - `MongoDB` + `actix-web`
 - DB structure: there's a `moonbatteries` database containing a `moon` collection for registered batteries. Can be seen in `mongodb/init-mongo.js`.
-- *It worrks on my machine!* Everything should hopefully be self-contained. There's a docker-compose file, I recommend using docker to set up `MongoDB` and you will also need a `.env` file with your target URL.
+- *It works on my machine!* &rightarrow; Everything should hopefully be self-contained. There's a docker-compose file, I recommend using docker to set up `MongoDB` and you will also need a `.env` file with your target URL.
 
 
 ### What's missing?
